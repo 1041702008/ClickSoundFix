@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "clicksoundfix",
+  "version": "${version}",
+  "name": "ClickSoundFix",
+  "description": "Fixes an annoying Bug which would play the UI-Click Sound twice when opening a new UI and the Mouse-Cursor is over a Slider in this new UI.",
+  "authors": [
+    "Cxlina"
+  ],
+  "contact": {
+    "website": "http://celinadev.de"
+  },
+  "license": "MIT",
+  "icon": "assets/clicksoundfix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "de.celinadev.clicksoundfix.Main"
+    ]
+  },
+  "mixins": [
+    "clicksoundfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.4",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

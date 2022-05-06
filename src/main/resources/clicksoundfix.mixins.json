@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.celinadev.clicksoundfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinScreen",
+    "MixinSliderWidget"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
