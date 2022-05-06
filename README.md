@@ -1,5 +1,5 @@
 # ClickSoundFix
-This Mod Fixes an annoying Bug which would play the UI-Click Sound twice when opening a new UI and the Mouse-Cursor is over a Slider in this new UI.
+This Mod Fixes an annoying Bug which would play the UI-Click Sound twice when opening a new UI and the Mouse-Cursor is over a Slider in this new UI (For example the Sound Settings UI).
 
 **How it works**
 
