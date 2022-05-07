@@ -4,7 +4,6 @@
   "package": "de.celinadev.clicksoundfix.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MixinScreen",
     "MixinSliderWidget"
   ],
   "client": [
